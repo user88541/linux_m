@@ -10,9 +10,7 @@ maintainers:
   - Rob Herring <robh@kernel.org>
 
 description: |
-  This is a list of trivial I2C and SPI devices that have simple device tree
-  bindings, consisting only of a compatible field, an address and possibly an
-  interrupt line.
+Hello world! This field was modified for practice by Maria.
 
   If a device needs more specific bindings, such as properties to
   describe some aspect of it, there needs to be a specific binding
