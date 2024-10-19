@@ -9,11 +9,9 @@ title: Trivial I2C and SPI devices
 maintainers:
   - Rob Herring <robh@kernel.org>
 
-description: |This is a list of trivial I2C and SPI devices that have
-simple device tree 
-  bindings, consisting only of a compatible field, an address
-and possibly 
-  an interrupt line.
+description: |
+Hello world! This field was modified for practice by Maria
+
   If a device needs more specific bindings, such as properties to
   describe some aspect of it, there needs to be a specific binding
   document for it just like any other devices.
@@ -102,6 +100,8 @@ properties:
             # DMARD10: 3-axis Accelerometer
           - domintech,dmard10
             # MMA7660FC: 3-Axis Orientation/Motion Detection Sensor
+          - domintech,dmlbr20: 
+            # DMLBR20: 3-axis Accelerometer
           - fsl,mma7660
             # MMA8450Q: Xtrinsic Low-power, 3-axis Xtrinsic Accelerometer
           - fsl,mma8450
